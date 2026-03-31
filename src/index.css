@@ -16,6 +16,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +31,6 @@ body {
   color: #333;
   background: #fff;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {

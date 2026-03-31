@@ -215,24 +215,25 @@
 }
 
 /* Mobile */
-@media (max-width: 480px) {
-  .chat-window {
-    width: calc(100vw - 1.5rem);
-    right: 0.75rem;
-    bottom: 90px;
-    height: 60vh;
-    border-radius: 16px;
+@media (max-width: 768px) {
+  .chat-bubble {
+    bottom: 96px;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border-radius: 50%;
+    justify-content: center;
   }
 
   .chat-bubble__label {
     display: none;
   }
 
-  .chat-bubble {
-    width: 52px;
-    height: 52px;
-    padding: 0;
-    border-radius: 50%;
-    justify-content: center;
+  .chat-window {
+    width: calc(100vw - 1.5rem);
+    right: 0.75rem;
+    bottom: 96px;
+    height: 60vh;
+    border-radius: 16px;
   }
 }
