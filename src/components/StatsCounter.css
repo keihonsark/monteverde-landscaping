@@ -18,6 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   text-align: center;
+  align-items: stretch;
 }
 
 .stats__item {
@@ -63,14 +64,15 @@
 }
 
 .stats__google-stars {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   color: #f5a623;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   margin: 0.25rem 0;
 }
 
 .stats__item--google {
-  gap: 0.35rem;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .stats__counting {
