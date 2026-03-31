@@ -47,6 +47,7 @@ export default function Navbar() {
           <ul className="nav__links">
             <li><a href="#services" onClick={() => setOpen(false)}>Services</a></li>
             <li><a href="#reviews" onClick={() => setOpen(false)}>Reviews</a></li>
+            <li><Link to="/blog" onClick={() => setOpen(false)}>Blog</Link></li>
             <li><a href="#areas" onClick={() => setOpen(false)}>Areas</a></li>
             <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
           </ul>

@@ -10,6 +10,7 @@ import Reviews from '../components/Reviews'
 import TrustBadges from '../components/TrustBadges'
 import CtaBanner from '../components/CtaBanner'
 import ServiceAreas from '../components/ServiceAreas'
+import BlogPreview from '../components/BlogPreview'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import useFadeUp from '../hooks/useFadeUp'
@@ -31,6 +32,7 @@ export default function Home() {
       <TrustBadges />
       <CtaBanner />
       <ServiceAreas />
+      <BlogPreview />
       <Contact />
       <Footer />
     </>
