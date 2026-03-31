@@ -15,11 +15,13 @@ import LandscapingHardscape from './pages/services/LandscapingHardscape'
 import LawnEstimator from './pages/LawnEstimator'
 import LawnHealthQuiz from './pages/LawnHealthQuiz'
 import FloatingCallButton from './components/FloatingCallButton'
+import ChatWidget from './components/ChatWidget'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <FloatingCallButton />
+      <ChatWidget />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/estimate" element={<Estimate />} />
