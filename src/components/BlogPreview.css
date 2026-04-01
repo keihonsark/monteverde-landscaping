@@ -38,11 +38,6 @@
   flex-direction: column;
 }
 
-.blog-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.14);
-}
-
 .blog-card__img {
   height: 200px;
   overflow: hidden;
@@ -55,8 +50,14 @@
   transition: transform 0.5s ease;
 }
 
-.blog-card:hover .blog-card__img img {
-  transform: scale(1.08);
+@media (hover: hover) and (pointer: fine) {
+  .blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.14);
+  }
+  .blog-card:hover .blog-card__img img {
+    transform: scale(1.08);
+  }
 }
 
 .blog-card__body {
