@@ -10,8 +10,8 @@ export default function Footer() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <div className="footer__logo">
-            <img src="/logo-placeholder.png" alt={name} style={{ width: 140, height: 'auto', objectFit: 'contain', filter: 'brightness(1.2) drop-shadow(0 2px 8px rgba(0,0,0,0.5))', marginBottom: '1rem' }} />
-          </div>
+          <img src="/monteverde-logo.png" alt="MonteVerde Landscaping" style={{ height: '48px', width: 'auto' }} />
+        </div>
           <p className="footer__desc">
             {footer.tagline}
           </p>

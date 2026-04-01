@@ -51,7 +51,7 @@ export default function Navbar({ forceScrolled = false }) {
     <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
       <div className="container nav__inner">
         <Link to="/" className="nav__logo">
-          <img src="/logo-placeholder.png" alt={name} style={{ height: 56, width: 'auto', objectFit: 'contain', alignSelf: 'center' }} />
+          <img src="/monteverde-logo.png" alt="MonteVerde Landscaping" style={{ height: '48px', width: 'auto' }} />
         </Link>
 
         <button
