@@ -1,7 +1,7 @@
 const config = {
   business: {
-    name: "[Business Name]",
-    shortName: "[Business Name]",
+    name: "MonteVerde Landscaping",
+    shortName: "MonteVerde Landscaping",
     tagline: "Your local lawn and landscaping crew. Weekly maintenance, sod installs, irrigation, and more — done right every time.",
     phone: "[(XXX) XXX-XXXX]",
     phoneTel: "0000000000",
@@ -34,10 +34,10 @@ const config = {
   content: {
     about: {
       badge: "Top-Rated on Google & Facebook",
-      eyebrow: "About [Business Name]",
+      eyebrow: "About MonteVerde Landscaping",
       headline: "Local Crew. Real Results.",
       headlineAccent: "Results.",
-      body: "[Business Name] is a locally owned lawn care and landscaping company built on hard work, reliability, and pride in every yard we touch. We bring professional-grade results to homeowners across [City] and surrounding areas. From routine mowing to full landscape transformations — we treat every property like it's our own.",
+      body: "MonteVerde Landscaping is a locally owned lawn care and landscaping company built on hard work, reliability, and pride in every yard we touch. We bring professional-grade results to homeowners across [City] and surrounding areas. From routine mowing to full landscape transformations — we treat every property like it's our own.",
       bullets: [
         "Licensed, Insured & Bonded",
         "Locally Owned & Operated",
@@ -82,7 +82,7 @@ const config = {
     blogAuthor: "The Team",
   },
   seo: {
-    title: "[Business Name] | Lawn Care & Landscaping",
+    title: "MonteVerde Landscaping | Lawn Care & Landscaping",
     description: "Professional lawn care, landscaping, and irrigation services. Licensed, insured & bonded. Free estimates.",
   },
 }

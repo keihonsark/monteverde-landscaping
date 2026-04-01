@@ -7,14 +7,14 @@ const SERVICES = [
   {
     id: 'mowing',
     icon: '🌱',
-    name: 'Lawn Mowing & Trimming',
+    name: 'Lawn Maintenance & Trimming',
     prices: { small: [45, 65], medium: [75, 95], large: [110, 145] },
     hasFreqDiscount: true,
   },
   {
     id: 'weed',
     icon: '🧹',
-    name: 'Weed Control',
+    name: 'Pruning',
     prices: { small: [60, 80], medium: [90, 120], large: [140, 180] },
   },
   {

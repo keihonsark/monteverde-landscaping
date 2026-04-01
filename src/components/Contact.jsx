@@ -105,7 +105,7 @@ export default function Contact() {
                 <option>Sprinkler Systems</option>
                 <option>Drip Irrigation</option>
                 <option>Cement Work</option>
-                <option>Weed Control</option>
+                <option>Pruning</option>
                 <option>Trash Removal</option>
               </select>
             </div>

@@ -81,7 +81,7 @@ const blogPosts = [
 <h2>2. Aerate Compacted Soil</h2>
 <p>[Region] clay soil compacts hard over winter, especially if you've had foot traffic or heavy rain. Core aeration pulls small plugs out of the soil, allowing water, air, and nutrients to reach the roots. This one step can dramatically improve how your lawn absorbs water during summer irrigation.</p>
 
-<h2>3. Apply Pre-Emergent Weed Control</h2>
+<h2>3. Apply Pre-Emergent Pruning</h2>
 <p>Weeds are already germinating in February and March. A pre-emergent herbicide creates a barrier in the top layer of soil that prevents weed seeds from sprouting. Timing is everything — apply it before daytime highs consistently hit 80°F. Once weeds are visible, pre-emergent is too late.</p>
 
 <h2>4. Fertilize with Nitrogen-Rich Formula</h2>

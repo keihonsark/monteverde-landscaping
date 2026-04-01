@@ -74,7 +74,7 @@ function getRecommendations(answers) {
   if (answers[0] >= 2) recs.push({ name: 'Lawn Maintenance', desc: 'Regular mowing, edging, and trimming to restore your lawn', link: '/services/lawn-maintenance' })
   if (answers[1] >= 2) recs.push({ name: 'Sod Installation', desc: 'Fill in bare patches with fresh, professional sod', link: '/services/sod-installation' })
   if (answers[2] >= 2) recs.push({ name: 'Irrigation Systems', desc: 'Get your watering schedule dialed in with a proper sprinkler system', link: '/services/irrigation-systems' })
-  if (answers[3] >= 2) recs.push({ name: 'Weed Control', desc: 'Targeted weed treatment to reclaim your lawn', link: '/estimate' })
+  if (answers[3] >= 2) recs.push({ name: 'Pruning', desc: 'Targeted weed treatment to reclaim your lawn', link: '/estimate' })
   if (answers[4] >= 2) recs.push({ name: 'Full Yard Clean-Up', desc: 'A complete reset to get your property back on track', link: '/estimate' })
   if (recs.length === 0) recs.push({ name: 'Weekly Maintenance', desc: 'Keep your great lawn looking its best all year', link: '/services/lawn-maintenance' })
   return recs.slice(0, 3)

@@ -17,7 +17,7 @@ const allServices = [
   'Cement Work',
   'Gardening',
   'Trash Removal',
-  'Weed Control',
+  'Pruning',
   'Free Estimates',
 ]
 
