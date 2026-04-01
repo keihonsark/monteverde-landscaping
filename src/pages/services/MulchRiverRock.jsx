@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useFadeUp from '../../hooks/useFadeUp'
 import StatsCounter from '../../components/StatsCounter'
+import ProcessSection from '../../components/ProcessSection'
 import './ServicePage.css'
 import config from '../../config'
 
@@ -95,20 +96,7 @@ export default function MulchRiverRock() {
 
       <StatsCounter />
 
-      <section className="sp-process fade-up">
-        <div className="container">
-          <p className="sp-process__eyebrow">Our Process</p>
-          <h2 className="sp-process__title">How It Works</h2>
-          <div className="sp-process__grid">
-            {process.map((step, i) => (
-              <div key={i} className="sp-process__step stagger-child">
-                <div className="sp-process__num">{i + 1}</div>
-                <div className="sp-process__label">{step}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProcessSection steps={process} />
 
       <section className="sp-faq">
         <div className="container">

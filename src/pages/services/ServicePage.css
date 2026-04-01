@@ -203,9 +203,8 @@
   position: relative;
 }
 
-/* Horizontal dashed line connecting the circles */
-.sp-process__grid::before {
-  content: '';
+/* Connecting line — real element for animation control */
+.sp-process__line {
   position: absolute;
   top: 28px;
   left: calc(12.5% + 28px);
@@ -213,12 +212,38 @@
   height: 0;
   border-top: 2px dashed rgba(26, 122, 60, 0.3);
   z-index: 0;
+  width: 0;
+  transition: width 1.2s ease-in-out;
 }
 
+.sp-process__line--active {
+  width: calc(100% - 25% - 56px);
+}
+
+/* Remove old pseudo-element line */
+.sp-process__grid::before {
+  display: none;
+}
+
+/* Step — starts hidden, fades in */
 .sp-process__step {
   text-align: center;
   position: relative;
   z-index: 1;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.sp-process__step--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Circle pulse glow */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 8px rgba(26, 122, 60, 0.4), 0 0 16px rgba(26, 122, 60, 0.2); }
+  50% { box-shadow: 0 0 16px rgba(26, 122, 60, 0.8), 0 0 32px rgba(26, 122, 60, 0.4); }
 }
 
 .sp-process__num {
@@ -234,7 +259,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 1rem;
-  box-shadow: 0 0 12px rgba(26, 122, 60, 0.4);
+  animation: pulseGlow 2s ease-in-out infinite;
 }
 
 .sp-process__label {
@@ -497,7 +522,7 @@
     max-width: 280px;
   }
 
-  .sp-process__grid::before {
+  .sp-process__line {
     display: none;
   }
 
