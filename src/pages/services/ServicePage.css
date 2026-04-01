@@ -65,13 +65,23 @@
 /* What's Included */
 .sp-included {
   padding: 5rem 0;
-  background: #fff;
+  background: #111111;
+}
+
+.sp-included__eyebrow {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #1a7a3c;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .sp-included__title {
   font-size: 2rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #fff;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -79,7 +89,7 @@
 .sp-included__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: 0;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -87,21 +97,22 @@
 .sp-included__item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 12px;
   font-size: 1.05rem;
   font-weight: 500;
-  color: #333;
+  color: #ccc;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .sp-included__check {
   flex-shrink: 0;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--green-pale);
+  width: 22px;
+  height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #1a7a3c;
 }
 
 /* Why Choose */
@@ -238,13 +249,13 @@
 /* Pricing */
 .sp-pricing {
   padding: 5rem 0;
-  background: var(--green-pale);
+  background: #0a0a0a;
 }
 
 .sp-pricing__title {
   font-size: 2rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #fff;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -258,11 +269,11 @@
 }
 
 .sp-pricing__card {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 2.5rem 2rem;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   border-top: 4px solid #1a7a3c;
 }
 
@@ -271,20 +282,20 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #888;
+  color: #999;
   margin-bottom: 0.75rem;
 }
 
 .sp-pricing__range {
   font-size: 2.25rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #fff;
   margin-bottom: 0.5rem;
 }
 
 .sp-pricing__unit {
   font-size: 0.85rem;
-  color: #888;
+  color: #999;
   margin-bottom: 1.5rem;
 }
 
@@ -308,20 +319,20 @@
 .sp-pricing__disclaimer {
   text-align: center;
   font-size: 0.8rem;
-  color: #999;
+  color: #666;
   margin-top: 2rem;
 }
 
 /* FAQ */
 .sp-faq {
   padding: 5rem 0;
-  background: #fff;
+  background: #0a0a0a;
 }
 
 .sp-faq__title {
   font-size: 2rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #fff;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -331,12 +342,12 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 12px;
 }
 
 .sp-faq__item {
-  border: 1px solid #e8e8e8;
-  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -345,24 +356,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 1.5rem;
+  padding: 20px;
   background: none;
   border: none;
   font-family: var(--font-body);
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
   cursor: pointer;
   text-align: left;
 }
 
 .sp-faq__q:hover {
-  background: #fafafa;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .sp-faq__arrow {
   font-size: 1.25rem;
-  color: var(--green);
+  color: #1a7a3c;
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
@@ -372,22 +383,22 @@
 }
 
 .sp-faq__a {
-  padding: 0 1.5rem 1.25rem;
+  padding: 0 20px 20px;
   font-size: 0.95rem;
-  color: #666;
+  color: #999;
   line-height: 1.7;
 }
 
 /* Reviews */
 .sp-reviews {
   padding: 5rem 0;
-  background: var(--green-pale);
+  background: #111111;
 }
 
 .sp-reviews__title {
   font-size: 2rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #fff;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -401,10 +412,10 @@
 }
 
 .sp-reviews__card {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 2rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .sp-reviews__stars {
@@ -415,7 +426,7 @@
 
 .sp-reviews__text {
   font-size: 0.95rem;
-  color: #444;
+  color: #ccc;
   line-height: 1.7;
   font-style: italic;
   margin-bottom: 1rem;
@@ -423,14 +434,15 @@
 
 .sp-reviews__author {
   font-weight: 600;
-  color: var(--green-dark);
+  color: #4caf6e;
   font-size: 0.9rem;
 }
 
 /* Bottom CTA */
 .sp-cta {
   padding: 5rem 0;
-  background: var(--black);
+  background: #0a0a0a;
+  border-top: 1px solid rgba(26, 122, 60, 0.3);
   text-align: center;
 }
 
