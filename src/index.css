@@ -183,8 +183,22 @@ img {
   margin-left: 0;
 }
 
-/* Make all fade-up / heading elements immediately visible on mobile */
+/* Mobile: lock html, scroll on body to prevent browser chrome reflow */
 @media (max-width: 768px) {
+  html {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  body {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Make all fade-up / heading elements immediately visible on mobile */
   .fade-up {
     opacity: 1 !important;
     transform: none !important;
