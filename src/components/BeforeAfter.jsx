@@ -108,7 +108,7 @@ export default function BeforeAfter() {
     <section className="ba fade-up">
       <div className="container">
         <p className="ba__eyebrow">Real Results</p>
-        <h2 className="ba__heading sh__heading">See the <span className="sh__outline">Difference</span></h2>
+        <h2 className="ba__heading sh__heading" style={{ color: '#fff' }}>See the <span className="sh__outline">Difference</span></h2>
         <div className="sh__line" />
         <p className="ba__sub">Drag the slider to reveal the transformation.</p>
 
